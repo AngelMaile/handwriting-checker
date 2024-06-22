@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Kidos;
+    src: url(fonts/KidLearningHowToWrite-Regular.ttf);
+}
+
+@font-face {
+    font-family: kindergarten;
+    src: url(fonts/kindergarten.ttf);
+}
+
+@font-face {
+    font-family: lazydog;
+    src: url(fonts/lazy_dog.ttf);
+}
+
+@font-face {
+    font-family: pamela;
+    src: url(fonts/Pamelastudyblrregular-Regular.otf);
+}
+
+@font-face {
+    font-family: Odin;
+    src: url(fonts/Odin_RoundedBold.otf);
+}
+
+@font-face {
+    font-family: Lines;
+    src: url(fonts/CFSecondSonSchoolPERSONAL-R.ttf);
+}
+
+/* Adjustments to center the .all div */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: sets a background color for better visibility */
+}
+
+.all {
+    border: solid;
+    width: 750px;
+    height: 400px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 50px black;
+}
+
+#question {
+    font-family: Arial;
+    font-size: 50pt;
+}
+
+#userName {
+    margin-top: -25px;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+#userNme, #submitBtn {
+    display: block;
+}
+
+#submitBtn {
+    background-color: rgb(0, 187, 255);
+    color: white;
+    border: none;
+    font-size: 25px;
+    margin-left: 126px;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#submitBtn:hover {
+    cursor: pointer;
+    background-color: rgb(13, 144, 191);
+}
+
+#submitBtn:active {
+    background-color: rgb(16, 170, 226);
+}
+
+#typicalJason {
+    font-family: Kidos;
+    font-size: 40px;
+}
+
+#typicalOmphile {
+    font-family: kindergarten;
+    font-size: 30px;
+}
+
+#typicalAngel {
+    font-family: pamela;
+    font-size: 50px;
+}
+
+#typicalTryphina {
+    font-family: Odin;
+    font-size: 40px;
+}
+
+#typicalHenry {
+    font-family: Lines;
+    font-size: 40px;
+}
+
+#typicalError2 {
+    font-family: kindergarten;
+    font-size: 40px;
+    margin-top: -25px;
+}
+
+#typicalError {
+    font-family: Arial;
+    color: red;
+    font-size: 20px;
+}
